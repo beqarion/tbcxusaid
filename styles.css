@@ -63,7 +63,6 @@ Global Styles
 }
 body {
   font-family: var(--ff-secondary), Helvetica, sans-serif;
-  background-color: gray;
   color: var(--clr-mild-white);
 }
 ul {
