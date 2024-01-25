@@ -27,7 +27,7 @@ const renderCoursesSection = async () => {
           src="./images/arrow-right.svg"
           alt="blue arrow right"
         />
-        <a href=${course.detailsUrl} target="_blank">კურსის დეტალები</a>
+        <a href=${course.detailsUrl} target="_blank" aria-label="course details">კურსის დეტალები</a>
       </div>
     </div>
   </article>
