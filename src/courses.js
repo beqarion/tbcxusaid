@@ -3,9 +3,7 @@ import get from "./utilities/getElement.js"
 
 const renderCoursesSection = async () => {
   const coursesDOM = get(".courses")
-  // const coursesData = await fetchData("./assets/data/courses.json")<=ეს კოდი მუშაობს ვანილა ბუილდზე
-  const coursesData = await fetchData("./courses.json")
-
+  const coursesData = await fetchData("./data/courses.json")
   const coursesHTML = coursesData
     .map((course) => {
       return `<!-- single course -->
@@ -26,7 +24,7 @@ const renderCoursesSection = async () => {
       </div>
       <div class="course-details">
         <img
-          src="./arrow-right.svg"
+          src="./images/arrow-right.svg"
           alt="blue arrow right"
         />
         <a href=${course.detailsUrl} target="_blank">კურსის დეტალები</a>
