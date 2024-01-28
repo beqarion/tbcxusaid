@@ -95,7 +95,7 @@ This is a copy of the [https://www.tbcacademy.ge/usaid](https://www.tbcacademy.g
 
 ### Links
 
-- [Github Repo](https://github.com/beqarion/3-column-preview-card-component)
+- [Github Repo](https://github.com/beqarion/tbcxusaid)
 
 - [Live](https://tbcxusaidassignment.netlify.app/)
 
