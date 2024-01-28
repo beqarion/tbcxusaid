@@ -30,6 +30,10 @@ Fonts
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "TBC Uppercase";
+  src: url("assets/fonts/tbc-allcaps.woff2") format("woff2");
+}
 
 /*
 ===============
@@ -234,7 +238,6 @@ HERO
   font-family: var(--ff-primary);
   font-size: 28px;
   line-height: 1.6em;
-  text-transform: uppercase;
 }
 
 .hero-img-container img {
@@ -371,7 +374,9 @@ COURSES
   justify-content: start;
   align-items: center;
   color: var(--clr-tbc-blue);
+  transition: var(--transition);
 }
+
 .course-details img {
   width: 16px;
   height: 13px;
@@ -380,6 +385,9 @@ COURSES
   font-family: "TBCButton2", sans-serif;
   font-weight: bold;
   letter-spacing: 0.3px;
+}
+.course-details a:hover {
+  opacity: 0.85;
 }
 
 /* 
