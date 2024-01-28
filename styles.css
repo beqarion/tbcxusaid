@@ -253,7 +253,7 @@ HERO
   padding: 56px 0;
 }
 .hero-info p {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.6em;
 }
 .hero-info a {
@@ -374,7 +374,6 @@ COURSES
   justify-content: start;
   align-items: center;
   color: var(--clr-tbc-blue);
-  transition: var(--transition);
 }
 
 .course-details img {
@@ -385,9 +384,10 @@ COURSES
   font-family: "TBCButton2", sans-serif;
   font-weight: bold;
   letter-spacing: 0.3px;
+  transition: var(--transition);
 }
 .course-details a:hover {
-  opacity: 0.85;
+  opacity: 0.75;
 }
 
 /* 
